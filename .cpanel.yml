@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/paginaw1/public_html/web/app.arling.pro
+    - /bin/rsync -av public/ $DEPLOYPATH
